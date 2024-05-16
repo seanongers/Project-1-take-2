@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+ol {
+  display: flex;
+  list-style: none;
+}
+
+ol li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: rgb(37, 33, 33);
+  font-weight: 700;
+}
+
+/* Header SignUp Button */
+.signup-btn {
+  border-radius: 20px;
+  background-color: rgb(44, 44, 179);
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.signup-btn:hover,
+.signup-btn:focus {
+  background-color: rgb(142, 72, 207);
+}
+
+.content-left {
+  display: flex;
+  padding: 2 rem;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 0 0 20%;
+  align-items: flex-start;
+}
+
+.content-right {
+  display: flex;
+  padding: 1rem;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 3rem;
+}
+
+main h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+main h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  color: rgb(18, 138, 34);
+}
+
+/* Photo of doggies */
+.dog_img {
+ 
+  max-width: 600px;
+  height: 500px;
+}
+
+.description {
+  padding: 10px;
+  font-weight:  400;
+  letter-spacing: px;
+}
+
+button {
+  display: flex;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: rgb(44, 44, 179);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  background-color: rgb(142, 72, 207);
+}
